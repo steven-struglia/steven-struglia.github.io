@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>submission_3</title>
+<title>index</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13017,19 +13017,6 @@ ul.typeahead-list  > li > a.pull-right {
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
-<style type="text/css">
-    /*This file contains any manual css for this page that needs to override the global styles.
-This is only required when different pages style the same element differently. This is just
-a hack to deal with our current css styles and no new styling should be added in this file.*/
-
-#ipython-main-app {
-    position: relative;
-}
-#jupyter-main-app {
-    position: relative;
-}
-
-    </style>
 
 
 <style type="text/css">
@@ -13105,6 +13092,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>Since the top 10 holdings usually make up of about one quarter of the overall market and have a huge impact on the daily movement of the index and long-term performance, we will be focusing on the top 10.</p>
 <p>The data that we're going to need for this project is the S&amp;P 500 data (in this case we will be using the spy etf) as well as data from the top 10 companies in the S&amp;P.</p>
 <p>The top 10 companies as of 12.9.2020 are: AAPL, MSFT, AMZN, FB, GOOGL, GOOG, BRK.B, JNJ, JPM, V</p>
 
@@ -13212,6 +13200,15 @@ div#notebook {
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Now we have csv files for each of the top 10 stocks. They can be found here as <a href="https://github.com/steven-struglia/steven-struglia.github.io/stock_data">stock_data.zip</a></p>
+<p>They contain indicators for the stocks such as daily SMA (simple moving average), RSI (relative strength index), ADX (average directional index), volume and the time series.</p>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
